@@ -1,0 +1,24 @@
+.Icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.Icon-delete .icon-svg:hover{
+    fill: red;
+}
+
+.Icon-check .icon-svg:hover{
+    fill: green;
+}
+
+
+
+
+.icon-svg{
+    width: 20px;
+    height: 20spx;
+}
+

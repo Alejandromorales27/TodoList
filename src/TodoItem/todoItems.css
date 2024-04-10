@@ -1,0 +1,32 @@
+li{
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+    background-color: #E6C229;
+    list-style: none;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+.TodoItem-p{
+    width: 100%;
+    text-align: center;
+}
+
+.TodoItem-p--complete{
+    text-decoration: 1px line-through black;
+    color: green;
+}
+
+
+
+
+.tareasCompletas{
+    display: none;
+}
+
+.completasteTodo{
+    display: block;
+}
+

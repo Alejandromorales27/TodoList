@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #6610F2, #1A8FE3);
+    font-family: "Indie Flower";
+}
+
+#root{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 75px;
+}
+
+#tareas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 550px;
+    width: 50%;
+    background-image: url(./16397306_v602-nunoon-05-rippednotes.jpg);
+    background-size: contain;
+    box-shadow: 5px 5px 10px black, inset 0 0 5px white;
+    overflow: scroll;
+
+
+}
+#tareas::-webkit-scrollbar {
+    display: none;
+  }
+
+#tareasCompletas{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:850px){
+    #root{
+        flex-direction: column;
+        gap:15px;
+    }
+
+    #tareas{
+        width: 85%;
+    }
+}
